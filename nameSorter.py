@@ -6,7 +6,7 @@ def letterSorter(names):
 	>>> letterSorter(names)
 	["bonnie", "liz", "annie"]
 	>>> names = ["abcdefg", "vi"]
-	["vi", "abcdefg"]
+	["abcdefg", "vi"]
 	"""
 	
 	aVal = ord('a')
@@ -25,8 +25,4 @@ def letterSorter(names):
 		namesDic.pop(maxItem)
 		retVal.append(maxItem)
 	print retVal
-
-
-names = ["annie", "bonnie", "liz"]
-letterSorter(names)
 
