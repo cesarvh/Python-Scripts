@@ -18,7 +18,6 @@ def takeAShot(interval, numShots, rand=False):
 		if (rand == True):
 			rand = random.random() * 10
 			interval = rand		
-		print interval
 		while (flag == False):
 			end = time.time()
 			if (math.floor(end - start) == 60.0 * interval):
