@@ -5,7 +5,7 @@ Fun scripts written in python!
 Finds the differences in 2 rosters. Written to make my life easier during AFX
 - How to use:
   - download rosterDifferences.py
-  - run `python rosterDifferences.py <old roster file> <new roster file>
+  - run `python rosterDifferences.py <old roster file> <new roster file>`
   - press enter :') 
 
 
