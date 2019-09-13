@@ -5,7 +5,10 @@ Fun scripts written in python!
 Finds the differences in 2 rosters. Written to make my life easier during AFX
 - How to use:
   - download rosterDifferences.py
-  - run `python rosterDifferences.py <old roster file> <new roster file>`
+  - download a copy of your **new** roster from http://roster.afx.dance/admin. Make sure you choose the json option!
+  - have a copy of your **old** roster
+  - run `python rosterDifferences.py <path to old roster file> <path new roster file>`
+    - Ex: `python rosterDifferences.py ~/Documents/oldAssembleRoster.json ~/Downloads/newAssembleRoster.json`
   - press enter :') 
 
 
